@@ -10774,3 +10774,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  font-family: "Roboto Slab", sans-serif !important;
+  box-sizing: border-box;
+}
+
+.navbar {
+  transition: all 600ms ease-in-out;
+}
