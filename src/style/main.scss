@@ -1,0 +1,49 @@
+@import "~bootstrap";
+$intro:"../images/intro.png";
+////////////////////////////////////
+*{
+  font-family: "Roboto Slab", sans-serif !important;
+  box-sizing: border-box;
+}
+.navbar{
+  transition: all 600ms ease-in-out;
+}
+/////////// intro section
+#intro{
+  background: url($intro) no-repeat center center/cover;
+
+}
+////////////////
+.scale_hover{
+  transition: all 250ms linear;
+  &:hover{
+    transform: scale(1.1);
+  }
+}
+/////////// company intro
+#company_intro{
+  .content{
+    background-color: rgba(107,176,191,0.2);
+  }
+
+}
+
+/////////////// queries
+@media (max-width: 768px) {
+  nav{
+    background-color: #fff;
+
+  }
+  #intro{
+    h3,span{
+      text-align: center!important;
+    }
+    span{
+      font-size: 1.2rem!important;
+    }
+    .btn-container{
+      text-align: center;
+    }
+  }
+}
+
