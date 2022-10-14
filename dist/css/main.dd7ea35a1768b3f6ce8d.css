@@ -10782,3 +10782,17 @@ textarea.form-control-lg {
 .navbar {
   transition: all 600ms ease-in-out;
 }
+
+#intro {
+  background: url(../images/intro.png) no-repeat left center/cover;
+}
+#intro h3, #intro .h3 {
+  word-break: break-all;
+}
+
+.scale_hover {
+  transition: all 250ms linear;
+}
+.scale_hover:hover {
+  transform: scale(1.1);
+}

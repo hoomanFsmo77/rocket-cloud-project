@@ -698,7 +698,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/main.scss */ \"./src/style/main.scss\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Menu/Menu.js */ \"./src/js/components/Menu/Menu.js\");\n\n\n\n\n///////////////////////////////////\nvar menu = new _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"]();\nmenu.render();\n\n//# sourceURL=webpack://host-server-services-project/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/main.scss */ \"./src/style/main.scss\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _images_intro_cloud_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/intro_cloud.svg */ \"./src/images/intro_cloud.svg\");\n/* harmony import */ var _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Menu/Menu.js */ \"./src/js/components/Menu/Menu.js\");\n\n\n\n\n\n///////////////////////////////////\nvar menu = new _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"]();\nmenu.render();\n\n//# sourceURL=webpack://host-server-services-project/./src/js/main.js?");
 
 /***/ }),
 
@@ -797,7 +797,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1665700254265\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://host-server-services-project/./src/style/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1665772690691\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://host-server-services-project/./src/style/main.scss?");
 
 /***/ }),
 
@@ -972,6 +972,17 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 
 /***/ }),
 
+/***/ "./src/images/intro_cloud.svg":
+/*!************************************!*\
+  !*** ./src/images/intro_cloud.svg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"images/intro_cloud.svg\";\n\n//# sourceURL=webpack://host-server-services-project/./src/images/intro_cloud.svg?");
+
+/***/ }),
+
 /***/ "./src/images/logo.png":
 /*!*****************************!*\
   !*** ./src/images/logo.png ***!
@@ -1077,7 +1088,7 @@ eval("module.exports = __webpack_require__.p + \"images/logo.png\";\n\n//# sourc
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("d09b6659ae83520260a5")
+/******/ 		__webpack_require__.h = () => ("e44addd878d868f35de4")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

@@ -1,4 +1,5 @@
 @import "~bootstrap";
+$intro:"../images/intro.png";
 ////////////////////////////////////
 *{
   font-family: "Roboto Slab", sans-serif !important;
@@ -6,4 +7,18 @@
 }
 .navbar{
   transition: all 600ms ease-in-out;
+}
+/////////// intro section
+#intro{
+  background: url($intro) no-repeat left center/cover;
+  h3{
+    word-break: break-all;
+  }
+}
+////////////////
+.scale_hover{
+  transition: all 250ms linear;
+  &:hover{
+    transform: scale(1.1);
+  }
 }
