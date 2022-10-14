@@ -10784,10 +10784,7 @@ textarea.form-control-lg {
 }
 
 #intro {
-  background: url(../images/intro.png) no-repeat left center/cover;
-}
-#intro h3, #intro .h3 {
-  word-break: break-all;
+  background: url(../images/intro.png) no-repeat center center/cover;
 }
 
 .scale_hover {
@@ -10795,4 +10792,23 @@ textarea.form-control-lg {
 }
 .scale_hover:hover {
   transform: scale(1.1);
+}
+
+#company_intro .content {
+  background-color: rgba(107, 176, 191, 0.2);
+}
+
+@media (max-width: 768px) {
+  nav {
+    background-color: #fff;
+  }
+  #intro h3, #intro .h3, #intro span {
+    text-align: center !important;
+  }
+  #intro span {
+    font-size: 1.2rem !important;
+  }
+  #intro .btn-container {
+    text-align: center;
+  }
 }

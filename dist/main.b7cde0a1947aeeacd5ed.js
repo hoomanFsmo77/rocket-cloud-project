@@ -687,7 +687,7 @@ eval("\n\nmodule.exports = ansiHTML\n\n// Reference to https://github.com/sindre
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\nvar Menu = /*#__PURE__*/function () {\n  function Menu() {\n    _classCallCheck(this, Menu);\n  }\n  _createClass(Menu, [{\n    key: \"render\",\n    value: function render() {\n      var nav = document.querySelector('.navbar');\n      window.addEventListener('scroll', function (e) {\n        if (window.scrollY > 100) {\n          nav.classList.add('bg-light');\n          nav.classList.add('shadow');\n        } else {\n          nav.classList.remove('bg-light');\n          nav.classList.remove('shadow');\n        }\n      });\n    }\n  }]);\n  return Menu;\n}();\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://host-server-services-project/./src/js/components/Menu/Menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\nfunction _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }\nfunction _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, \"prototype\", { writable: false }); return Constructor; }\nvar Menu = /*#__PURE__*/function () {\n  function Menu() {\n    _classCallCheck(this, Menu);\n  }\n  _createClass(Menu, [{\n    key: \"render\",\n    value: function render() {\n      var nav = document.querySelector('.navbar');\n      window.addEventListener('scroll', function (e) {\n        if (window.scrollY > 150) {\n          nav.classList.add('bg-light');\n          nav.classList.add('shadow');\n        } else {\n          nav.classList.remove('bg-light');\n          nav.classList.remove('shadow');\n        }\n      });\n    }\n  }]);\n  return Menu;\n}();\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Menu);\n\n//# sourceURL=webpack://host-server-services-project/./src/js/components/Menu/Menu.js?");
 
 /***/ }),
 
@@ -698,7 +698,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/main.scss */ \"./src/style/main.scss\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _images_intro_cloud_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/intro_cloud.svg */ \"./src/images/intro_cloud.svg\");\n/* harmony import */ var _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Menu/Menu.js */ \"./src/js/components/Menu/Menu.js\");\n\n\n\n\n\n///////////////////////////////////\nvar menu = new _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"]();\nmenu.render();\n\n//# sourceURL=webpack://host-server-services-project/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/main.scss */ \"./src/style/main.scss\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _images_intro_cloud_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/intro_cloud.svg */ \"./src/images/intro_cloud.svg\");\n/* harmony import */ var _images_about_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/about.jpg */ \"./src/images/about.jpg\");\n/* harmony import */ var _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Menu/Menu.js */ \"./src/js/components/Menu/Menu.js\");\n\n\n\n\n\n\n///////////////////////////////////\nvar menu = new _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_5__[\"default\"]();\nmenu.render();\n\n//# sourceURL=webpack://host-server-services-project/./src/js/main.js?");
 
 /***/ }),
 
@@ -797,7 +797,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1665772690691\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://host-server-services-project/./src/style/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1665775821347\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://host-server-services-project/./src/style/main.scss?");
 
 /***/ }),
 
@@ -972,6 +972,17 @@ eval("var logLevel = \"info\";\n\nfunction dummy() {}\n\nfunction shouldLog(leve
 
 /***/ }),
 
+/***/ "./src/images/about.jpg":
+/*!******************************!*\
+  !*** ./src/images/about.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"images/about.jpg\";\n\n//# sourceURL=webpack://host-server-services-project/./src/images/about.jpg?");
+
+/***/ }),
+
 /***/ "./src/images/intro_cloud.svg":
 /*!************************************!*\
   !*** ./src/images/intro_cloud.svg ***!
@@ -1088,7 +1099,7 @@ eval("module.exports = __webpack_require__.p + \"images/logo.png\";\n\n//# sourc
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("e44addd878d868f35de4")
+/******/ 		__webpack_require__.h = () => ("19f20a8201af3613b116")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

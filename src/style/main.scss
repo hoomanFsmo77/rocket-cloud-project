@@ -10,10 +10,8 @@ $intro:"../images/intro.png";
 }
 /////////// intro section
 #intro{
-  background: url($intro) no-repeat left center/cover;
-  h3{
-    word-break: break-all;
-  }
+  background: url($intro) no-repeat center center/cover;
+
 }
 ////////////////
 .scale_hover{
@@ -22,3 +20,30 @@ $intro:"../images/intro.png";
     transform: scale(1.1);
   }
 }
+/////////// company intro
+#company_intro{
+  .content{
+    background-color: rgba(107,176,191,0.2);
+  }
+
+}
+
+/////////////// queries
+@media (max-width: 768px) {
+  nav{
+    background-color: #fff;
+
+  }
+  #intro{
+    h3,span{
+      text-align: center!important;
+    }
+    span{
+      font-size: 1.2rem!important;
+    }
+    .btn-container{
+      text-align: center;
+    }
+  }
+}
+
