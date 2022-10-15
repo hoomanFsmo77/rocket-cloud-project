@@ -10774,6 +10774,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+a {
+  text-decoration: none;
+  all: unset;
+}
+
 * {
   font-family: "Roboto Slab", sans-serif !important;
   box-sizing: border-box;
@@ -10795,8 +10800,68 @@ textarea.form-control-lg {
   color: #4154f1;
 }
 
+.text-blue-2 {
+  color: #2db6fa;
+}
+.text-blue-2:hover {
+  color: #2db6fa;
+}
+
+.text-orange-2 {
+  color: #f68c09;
+}
+.text-orange-2:hover {
+  color: #f68c09;
+}
+
+.text-green-2 {
+  color: #08da4e;
+}
+.text-green-2:hover {
+  color: #08da4e;
+}
+
+.bg-red {
+  background: #bb0852;
+}
+
+.bg-green {
+  background: #15be56;
+}
+
+.bg-orange {
+  color: #f68c09;
+  background: #fde3c4;
+}
+
+.bg-blue {
+  background: #dbf3fe;
+  color: #2db6fa;
+}
+
+.bg-green {
+  color: #08da4e;
+  background: #cffddf;
+}
+
+.border-blue {
+  border-bottom: 3px solid #2db6fa;
+}
+
+.border-orange {
+  border-bottom: 3px solid #f68c09;
+}
+
+.border-green {
+  border-bottom: 3px solid #08da4e;
+}
+
 .navbar {
   transition: all 600ms ease-in-out;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 #intro {
@@ -10816,6 +10881,37 @@ textarea.form-control-lg {
 
 #feature i {
   font-size: 3rem;
+}
+
+#services .blue_card {
+  transition: all 250ms ease-out;
+}
+#services .blue_card:hover {
+  background: #2db6fa;
+  color: #dbf3fe !important;
+}
+#services .blue_card:hover a {
+  color: #dbf3fe !important;
+}
+#services .orange_card {
+  transition: all 250ms ease-out;
+}
+#services .orange_card:hover {
+  color: #fde3c4;
+  background: #f68c09;
+}
+#services .orange_card:hover a {
+  color: #fde3c4 !important;
+}
+#services .green_card {
+  transition: all 250ms ease-out;
+}
+#services .green_card:hover {
+  color: #cffddf;
+  background: #08da4e;
+}
+#services .green_card:hover a {
+  color: #cffddf !important;
 }
 
 @media (max-width: 768px) {
