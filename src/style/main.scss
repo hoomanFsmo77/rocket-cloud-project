@@ -39,7 +39,12 @@ $intro:"../images/intro.png";
   }
 
 }
-
+//////////////// feature
+#feature{
+  i{
+    font-size: 3rem;
+  }
+}
 /////////////// queries
 @media (max-width: 768px) {
   nav{
