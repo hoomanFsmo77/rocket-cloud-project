@@ -1,0 +1,13 @@
+/*!
+  * Bootstrap v5.2.2 (https://getbootstrap.com/)
+  * Copyright 2011-2022 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+
+/*!
+ * purecounter.js - A simple yet configurable native javascript counter which you can count on.
+ * Author: Stig Rex
+ * Version: 1.5.0
+ * Url: https://github.com/srexi/purecounterjs
+ * License: MIT
+ */
