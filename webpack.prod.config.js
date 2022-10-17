@@ -37,11 +37,7 @@ module.exports={
                 use: {
                     loader: "babel-loader"
                 }
-            },
-            {
-                test: /\.css$/i,
-                use: [MiniCssExtractPlugin.loader, "css-loader"],
-            },
+            }
         ],
     },
     optimization: {
@@ -50,12 +46,12 @@ module.exports={
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename:"css/[name].[contenthash].css"
+            filename:"css/[name].css"
         }),
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: "index.html",
-            publicPath:"./dist/"
+            template: "index.html"
+            // publicPath:"./dist/"
         })
     ]
 }
