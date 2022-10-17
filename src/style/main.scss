@@ -1,99 +1,11 @@
 @import "~bootstrap";
+@import "./Utilities";
+@import "./Variables";
 $intro:"../images/intro.png";
-////////////////////////////////////
-$red_c:#bb0852;
-$green_c:#15be56;
-$orange_c:#ee6c20;
-$blue-c:#4154f1;
-a{
-  text-decoration: none;
-  all: unset;
-
-}
-*{
-  font-family: "Roboto Slab", sans-serif !important;
-  box-sizing: border-box;
-}
-.red{
-  color: $red_c;
-}
-.green{
-  color: $green_c;
-}
-.orange{
-  color: $orange_c;
-}
-.blue{
-  color: $blue-c;
-}
-.text-blue-2{
-  color: #2db6fa;
-  &:hover{
-    color: #2db6fa;
-
-  }
-}
-.text-orange-2{
-  color: #f68c09;
-  &:hover{
-    color: #f68c09;
-
-  }
-}
-.text-green-2{
-  color: #08da4e;
-  &:hover{
-    color: #08da4e;
-
-  }
-}
-.bg-red{
-  background: $red_c;
-}
-.bg-green{
-  background: $green_c;
-}
-.bg-orange{
-  color: #f68c09;
-  background: #fde3c4;
-}
-.bg-blue{
-  background: #dbf3fe;
-  color: #2db6fa;
-}
-.bg-green{
-  color: #08da4e;
-  background: #cffddf;
-}
-.border-blue{
-  border-bottom: 3px solid #2db6fa;
-}
-.border-orange{
-  border-bottom: 3px solid #f68c09;
-}
-.border-green{
-  border-bottom: 3px solid #08da4e;
-}
-.navbar{
-  transition: all 600ms ease-in-out;
-}
-.icon{
-
-}
-.pointer{
-  cursor: pointer;
-}
 /////////// intro section
 #intro{
   background: url($intro) no-repeat center center/cover;
 
-}
-////////////////
-.scale_hover{
-  transition: all 250ms linear;
-  &:hover{
-    transform: scale(1.1);
-  }
 }
 /////////// company intro
 #company_intro{
@@ -113,10 +25,10 @@ a{
   .blue_card{
     transition: all 250ms ease-out;
     &:hover {
-      background:#2db6fa ;
-      color: #dbf3fe!important;
+      background:$blue-2 ;
+      color: $blue-3!important;
       a{
-        color: #dbf3fe!important;
+        color: $blue-3!important;
       }
     }
   }
@@ -124,19 +36,19 @@ a{
     transition: all 250ms ease-out;
 
     &:hover {
-      color: #fde3c4;
-      background:#f68c09 ;
+      color: $orange-3;
+      background:$orange-2 ;
       a{
-        color: #fde3c4!important;
+        color: $orange-3!important;
       }
     }
   }
   .green_card{
     transition: all 250ms ease-out;
 
-    &:hover {
-      color: #cffddf;
-      background:#08da4e ;
+    &:hover{
+      color: $green-3;
+      background:$green-2 ;
       a{
         color: #cffddf!important;
 
@@ -162,4 +74,10 @@ a{
     }
   }
 }
+////////////////
+ #plans{
+   .plans-card{
+     font-size: 1.15rem;
+   }
+ }
 

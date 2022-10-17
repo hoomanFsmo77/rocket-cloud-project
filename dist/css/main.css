@@ -10776,7 +10776,6 @@ textarea.form-control-lg {
 }
 a {
   text-decoration: none;
-  all: unset;
 }
 
 * {
@@ -10844,6 +10843,18 @@ a {
   background: #cffddf;
 }
 
+.bg-green-3 {
+  background: #cffddf;
+}
+
+.bg-orange-3 {
+  background: #fde3c4;
+}
+
+.bg-blue-3 {
+  background: #dbf3fe;
+}
+
 .border-blue {
   border-bottom: 3px solid #2db6fa;
 }
@@ -10864,15 +10875,15 @@ a {
   cursor: pointer;
 }
 
-#intro {
-  background: url(../images/intro.png) no-repeat center center/cover;
-}
-
 .scale_hover {
   transition: all 250ms linear;
 }
 .scale_hover:hover {
   transform: scale(1.1);
+}
+
+#intro {
+  background: url(../images/intro.png) no-repeat center center/cover;
 }
 
 #company_intro .content {
@@ -10927,4 +10938,7 @@ a {
   #intro .btn-container {
     text-align: center;
   }
+}
+#plans .plans-card {
+  font-size: 1.15rem;
 }

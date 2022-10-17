@@ -719,7 +719,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/main.scss */ \"./src/style/main.scss\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _images_intro_cloud_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/intro_cloud.svg */ \"./src/images/intro_cloud.svg\");\n/* harmony import */ var _images_about_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/about.jpg */ \"./src/images/about.jpg\");\n/* harmony import */ var _images_value_1_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/value-1.png */ \"./src/images/value-1.png\");\n/* harmony import */ var _images_value_2_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/value-2.png */ \"./src/images/value-2.png\");\n/* harmony import */ var _images_value_3_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/value-3.png */ \"./src/images/value-3.png\");\n/* harmony import */ var _images_feature_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/feature.png */ \"./src/images/feature.png\");\n/* harmony import */ var _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/Menu/Menu.js */ \"./src/js/components/Menu/Menu.js\");\n/* harmony import */ var _components_Value_Value_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Value/Value.js */ \"./src/js/components/Value/Value.js\");\n/* harmony import */ var _srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @srexi/purecounterjs */ \"./node_modules/@srexi/purecounterjs/dist/purecounter.js\");\n/* harmony import */ var _srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_11__);\n\n\n\n\n\n\n\n\n\n\n\n\n///////////////////////////////////\nvar menu = new _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_9__[\"default\"]();\nmenu.render();\nwindow.customElements.define('value-card', _components_Value_Value_js__WEBPACK_IMPORTED_MODULE_10__[\"default\"]);\nvar pure = new (_srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_11___default())();\n\n//# sourceURL=webpack://host-server-services-project/./src/js/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n/* harmony import */ var _style_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../style/main.scss */ \"./src/style/main.scss\");\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/logo.png */ \"./src/images/logo.png\");\n/* harmony import */ var _images_intro_cloud_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/intro_cloud.svg */ \"./src/images/intro_cloud.svg\");\n/* harmony import */ var _images_about_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../images/about.jpg */ \"./src/images/about.jpg\");\n/* harmony import */ var _images_value_1_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../images/value-1.png */ \"./src/images/value-1.png\");\n/* harmony import */ var _images_value_2_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/value-2.png */ \"./src/images/value-2.png\");\n/* harmony import */ var _images_value_3_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/value-3.png */ \"./src/images/value-3.png\");\n/* harmony import */ var _images_feature_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/feature.png */ \"./src/images/feature.png\");\n/* harmony import */ var _images_plan_1_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/plan-1.png */ \"./src/images/plan-1.png\");\n/* harmony import */ var _images_plan_2_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../images/plan-2.png */ \"./src/images/plan-2.png\");\n/* harmony import */ var _images_plan_3_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/plan-3.png */ \"./src/images/plan-3.png\");\n/* harmony import */ var _images_plan_4_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../images/plan-4.png */ \"./src/images/plan-4.png\");\n/* harmony import */ var _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/Menu/Menu.js */ \"./src/js/components/Menu/Menu.js\");\n/* harmony import */ var _components_Value_Value_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/Value/Value.js */ \"./src/js/components/Value/Value.js\");\n/* harmony import */ var _srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @srexi/purecounterjs */ \"./node_modules/@srexi/purecounterjs/dist/purecounter.js\");\n/* harmony import */ var _srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_15__);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n///////////////////////////////////\nvar menu = new _components_Menu_Menu_js__WEBPACK_IMPORTED_MODULE_13__[\"default\"]();\nmenu.render();\nwindow.customElements.define('value-card', _components_Value_Value_js__WEBPACK_IMPORTED_MODULE_14__[\"default\"]);\nvar pure = new (_srexi_purecounterjs__WEBPACK_IMPORTED_MODULE_15___default())();\n\n//# sourceURL=webpack://host-server-services-project/./src/js/main.js?");
 
 /***/ }),
 
@@ -818,7 +818,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1665876343931\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://host-server-services-project/./src/style/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      // 1666035033434\n      var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack://host-server-services-project/./src/style/main.scss?");
 
 /***/ }),
 
@@ -1037,6 +1037,50 @@ eval("module.exports = __webpack_require__.p + \"images/logo.png\";\n\n//# sourc
 
 /***/ }),
 
+/***/ "./src/images/plan-1.png":
+/*!*******************************!*\
+  !*** ./src/images/plan-1.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"images/plan-1.png\";\n\n//# sourceURL=webpack://host-server-services-project/./src/images/plan-1.png?");
+
+/***/ }),
+
+/***/ "./src/images/plan-2.png":
+/*!*******************************!*\
+  !*** ./src/images/plan-2.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"images/plan-2.png\";\n\n//# sourceURL=webpack://host-server-services-project/./src/images/plan-2.png?");
+
+/***/ }),
+
+/***/ "./src/images/plan-3.png":
+/*!*******************************!*\
+  !*** ./src/images/plan-3.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"images/plan-3.png\";\n\n//# sourceURL=webpack://host-server-services-project/./src/images/plan-3.png?");
+
+/***/ }),
+
+/***/ "./src/images/plan-4.png":
+/*!*******************************!*\
+  !*** ./src/images/plan-4.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"images/plan-4.png\";\n\n//# sourceURL=webpack://host-server-services-project/./src/images/plan-4.png?");
+
+/***/ }),
+
 /***/ "./src/images/value-1.png":
 /*!********************************!*\
   !*** ./src/images/value-1.png ***!
@@ -1164,7 +1208,7 @@ eval("module.exports = __webpack_require__.p + \"images/value-3.png\";\n\n//# so
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("3f147c4331a36766d22f")
+/******/ 		__webpack_require__.h = () => ("04e20a6aac9cdaa35fe3")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
