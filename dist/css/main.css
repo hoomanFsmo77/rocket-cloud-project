@@ -10882,6 +10882,10 @@ a {
   transform: scale(1.1);
 }
 
+.fs-09 {
+  font-size: 0.9rem;
+}
+
 #intro {
   background: url(../images/intro.png) no-repeat center center/cover;
 }
@@ -10941,4 +10945,11 @@ a {
 }
 #plans .plans-card {
   font-size: 1.15rem;
+}
+
+footer i {
+  font-size: 0.8rem;
+}
+footer a {
+  font-size: 1.1rem;
 }
